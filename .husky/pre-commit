@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "🔍 Checking code style..."
+npx lint-staged || exit 1
+
+echo "🏗️ Checking build..."
+npm run build || exit 1
