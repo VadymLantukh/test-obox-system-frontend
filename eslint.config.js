@@ -18,7 +18,6 @@ export default defineConfig([
       ...tseslint.configs.recommended,
       ...tseslint.configs.strictTypeChecked,
       ...tseslint.configs.stylisticTypeChecked,
-      reactHooks.configs['recommended-latest'] || reactHooks.configs.recommended,
     ],
     plugins: {
       'react-refresh': reactRefresh,
@@ -52,9 +51,10 @@ export default defineConfig([
       ],
 
       '@typescript-eslint/no-explicit-any': 'error',
-      '@typescript-eslint/no-non-null-assertion': 'warn',
+      '@typescript-eslint/no-non-null-assertion': 'error',
 
       ...reactHooks.configs.recommended.rules,
+
       'react-hooks/exhaustive-deps': 'error',
       'react-hooks/rules-of-hooks': 'error',
 
