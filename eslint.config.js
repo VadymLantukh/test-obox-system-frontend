@@ -50,6 +50,7 @@ export default defineConfig([
         },
       ],
 
+      '@typescript-eslint/no-unsafe-assignment': 'off',
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/no-non-null-assertion': 'error',
 

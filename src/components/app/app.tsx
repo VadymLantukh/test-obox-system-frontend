@@ -1,4 +1,4 @@
-import './app.module.css';
+import './styles.module.css';
 
 const App = () => {
   return <div>123</div>;
