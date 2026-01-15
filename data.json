@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "heading": "ZERO LIMITS",
+    "subheading": "IMMERSE YOURSELF IN THE UNKNOWN"
+  },
+  "slides": [
+    {
+      "id": 1,
+      "title": "ORIGINS",
+      "subtitle": "CHAPTER I",
+      "description": "Where nature meets technology. The beginning of a new era requires a new perspective."
+    },
+    {
+      "id": 2,
+      "title": "VIBRANIUM",
+      "subtitle": "CHAPTER II",
+      "description": "Strength found in the deepest roots. Power that flows through the veins of the earth."
+    },
+    {
+      "id": 3,
+      "title": "FOREVER",
+      "subtitle": "CHAPTER III",
+      "description": "Legacy is not what you leave behind. It is what you weave into the lives of others."
+    }
+  ]
+}
